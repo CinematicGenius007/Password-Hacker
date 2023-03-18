@@ -19,12 +19,6 @@ public class Main {
             .create();
     private static final String PASSWORD_FILE = "passwords.txt";
     private static final String LOGIN_FILE = "logins.txt";
-    private static final String DATABASE_PATH = System.getProperty("user.dir") +
-            File.separator + "Password Hacker (Java)" +
-            File.separator + "task" +
-            File.separator + "src" +
-            File.separator + "hacker" +
-            File.separator + LOGIN_FILE;
 
     private static final String RUNNING_DATABASE_PATH = System.getProperty("user.dir") +
             File.separator + "src" +
